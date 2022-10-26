@@ -14,7 +14,7 @@ public class ModItems {
 
     public static final RegistryObject<Item> PLUTONIUM = ITEMS.register("plutonium",
             () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
-    public static final RegistryObject<Item> RAWPLUTONIUM = ITEMS.register("raw_plutonium",
+    public static final RegistryObject<Item> RAW_PLUTONIUM = ITEMS.register("raw_plutonium",
             () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
