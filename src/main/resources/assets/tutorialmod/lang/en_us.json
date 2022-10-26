@@ -1,4 +1,6 @@
 {
   "item.tutorialmod.plutonium": "Plutonium",
-  "item.tutorialmod.raw_plutonium": "Raw Plutonium"
+  "item.tutorialmod.raw_plutonium": "Raw Plutonium",
+
+  "itemGroup.tutorialtab": "Tutorial"
 }

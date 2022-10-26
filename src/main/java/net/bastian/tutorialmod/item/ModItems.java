@@ -13,9 +13,9 @@ public class ModItems {
             DeferredRegister.create(ForgeRegistries.ITEMS, TutorialMod.MODID);
 
     public static final RegistryObject<Item> PLUTONIUM = ITEMS.register("plutonium",
-            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.TUTORIAL_TAB)));
     public static final RegistryObject<Item> RAW_PLUTONIUM = ITEMS.register("raw_plutonium",
-            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.TUTORIAL_TAB)));
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
     }
