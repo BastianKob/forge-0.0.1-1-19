@@ -10,7 +10,7 @@ import net.minecraftforge.registries.RegistryObject;
 
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
-            DeferredRegister.create(ForgeRegistries., TutorialMod.MODID);
+            DeferredRegister.create(ForgeRegistries.ITEMS, TutorialMod.MODID);
 
     public static final RegistryObject<Item> PLUTONIUM = ITEMS.register("plutonium",
             () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
